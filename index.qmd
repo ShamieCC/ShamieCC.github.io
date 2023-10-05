@@ -1,5 +1,8 @@
 ---
-title: "ShamieCC.github.io"
+title: "Caroline Shamiso Chitongo"
+about: 
+    template: jolla
+
 ---
 
 This is a Quarto website.
