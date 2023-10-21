@@ -3,18 +3,75 @@ project:
   output-dir: docs
 
 website:
-  title: "ShamieCC.github.io"
+  title: "Caroline Shamiso Chitongo"
+  back-to-top-navigation: true
+  page-navigation: true
+  reader-mode: true
+  open-graph: true
+  site-url: https://shamiecc.github.io/
+  repo-url: https://github.com/ShamieCC/ShamieCC.github.io
+  repo-actions: [issue]
+  page-footer: 
+    left: "Copyright 2023 Caroline Shamiso Chitongo"
+    right: 
+      - icon: github
+        href: https://shamiecc.github.io/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
   navbar:
+    foreground: thistle
+    search: true
+    tools:
+      - icon: linkedin
+        href:  https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
+      - icon: github
+        menu:
+          - text: Source code
+            url: https://github.com/ShamieCC/ShamieCC.github.io
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: "About me"
+        file: about.qmd
+      - text: "My Projects"
+        file: projects.qmd
+      - text: "Now Page"
+        file: now_page.qmd
+      - text: "Contact Me"
+        file: donate.qmd
+        
+  sidebar:
+    - title: "About me"
+      style: "docked"
+      background: primary
+      foreground: thistle
+      contents:
+        - about.qmd
+      
+    - title: "My Projects"
+      contents:
+        - projects.qmd
+        - section: "Open Source Projects"
+          contents:
+            - gen_ai.qmd
+        - text: "----"
+        - section: "Tutorials"
+          contents:
+            - tutorials.qmd
+        - text: "----"
+        - section: "ML/AI"
+          contents:
+            - deepl.qmd
+        - text: "----"
+        - section: "Blogs"
+          contents:   
+            - blogs.qmd
+            
+  
 format:
   html:
     theme: Darkly
     css: styles.css
     toc: true
+    
 
 
 

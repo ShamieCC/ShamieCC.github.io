@@ -1,5 +1,14 @@
 ---
-title: "About"
+title: "About me"
+about: 
+  template: jolla
+  image: 20220915_175144.jpg
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href:  https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
+    - icon: github
+      text: Github
 ---
 
-About this site and more
+Working on the website..... more content, changes and improvements coming soon!..
