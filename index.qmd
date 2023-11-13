@@ -1,0 +1,50 @@
+---
+title: "Caroline Shamiso Chitongo"
+subtitle: "ML/AI | Data Science"
+about: 
+   id: hero-heading
+   template: trestles
+   image: images/20220915_175144.jpg
+   image-shape: rounded
+   image-width: 10cm
+   links: 
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
+      - icon: github
+        text: GitHub
+        href: https://github.com/ShamieCC
+---
+
+![](images/groundwater)
+
+::: panel-tabset
+## Welcome!
+
+Section in progress...Content Coming soon!
+
+## Education
+
+<h4>Education</h4>
+
+<h7><b><u> ![](images/uol.png){width="14%"}University of London (UoL)</b></u></h7><br>Bachelor of Science in Computer Science \| 2021 - 2025 <br> Specialization: Machine Learning and Artificial Intelligence
+
+## Highlighted Projects
+
+<h4>Highlighted Projects</h4>
+
+<h10><b><u>Cohere For AI: AYA Project </b></u></h10><br> Title: [AYA: An Open Sciene Initiative to Accelerate Multilingual Progress](https://txt.cohere.com/aya-multilingual/?_gl=1*1nj4tjg*_ga*MTEyODg0MDA3Mi4xNjk5ODIyMTk3*_ga_CRGS116RZS*MTY5OTg2NjAwNi4yLjEuMTY5OTg2NjAzOS4yNy4wLjA.)<br> Role: Aya Language Ambassador <br> Project: [Analysis](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/analytics), [Dashboard](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/) ![](images/Aya_co){width="700"}
+
+<U>Description</U>:Section in progress...Content Coming soon!
+
+
+## Portfolio
+
+<h4>Portfolio</h4>
+
+<h7><b><u>Content coming soon!</b></u></h7>
+
+
+:::
+
+------------------------------------------------------------------------

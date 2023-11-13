@@ -1,0 +1,10 @@
+---
+title: "Check out my blogs!"
+listing: 
+  type: grid
+  contents: posts
+  sort: "date desc"
+  categories: true
+---
+
+Section in progress…Content Coming soon!

@@ -1,5 +1,0 @@
----
-title: "Quarto websites and GIthub Pages"
----
-
-Working on the website..... more content, changes and improvements coming soon!..

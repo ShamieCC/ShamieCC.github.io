@@ -1,14 +1,21 @@
 ---
-title: "About me"
-about: 
-  template: jolla
-  image: 20220915_175144.jpg
-  links: 
-    - icon: linkedin
-      text: Linkedin
-      href:  https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
-    - icon: github
-      text: Github
+title: "About Caroline Shamiso"
 ---
 
-Working on the website..... more content, changes and improvements coming soon!..
+::: panel-tabset
+## Full Bio
+
+<h4>Biography</h4>
+
+Section in progress...Content Coming soon!
+
+## Hobbies
+
+<h4>My Hobbies!</h4>
+
+Section in progress...photos & data coming soon!
+
+![](images/w3.jpg){width="225"} ![](images/w4.jpg){width="226"}
+
+![](images/w6.jpg){width="226"} ![](images/w7.jpg){width="226"}
+:::
