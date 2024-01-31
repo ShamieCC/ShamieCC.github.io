@@ -1,5 +1,5 @@
 ---
-title: "Check out my blogs!"
+title: "Portfolio (Coming Soon end of February)"
 listing: 
   type: grid
   contents: posts
@@ -7,4 +7,8 @@ listing:
   categories: true
 ---
 
-Section in progress…Content Coming soon!
+Thank you for visiting my portfolio section. Currently, it's in the works, and I'm excited to showcase my projects and achievements by the end February. As I approach the conclusion of my projects, I'll be adding a collection of my latest work, research, and other noteworthy endeavors.
+
+Feel free to check back for updates then. Your interest is much appreciated, and I look forward to sharing my accomplishments with you.
+
+In the meantime, if you have any inquiries or would like to connect, please don't hesitate to reach out. Stay tuned for exciting updates end of February!

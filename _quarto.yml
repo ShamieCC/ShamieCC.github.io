@@ -16,7 +16,7 @@ website:
         href: about.qmd
 
     right:
-      - text: My Blogs
+      - text: My Portifolio
         href: posts.qmd
       - text: "Let's Get in Touch!"
         menu:
@@ -32,7 +32,7 @@ website:
 
   page-footer:
     background: "#4E7895"
-    left: "© 2023 Caroline Shamiso Chitongo"
+    left: "© 2024 Caroline Shamiso Chitongo"
     right:
       - icon: github
         href: https://github.com/ShamieCC

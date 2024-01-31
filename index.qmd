@@ -16,33 +16,33 @@ about:
         href: https://github.com/ShamieCC
 ---
 
-![](images/groundwater)
+![](images/aigov)
 
 ::: panel-tabset
 ## Welcome!
 
-Section in progress...Content Coming soon!
+
+I am an aspiring AI/ML Engineer pursuing a BSc in Computer Science at the University of London. I am also interested in Machine Learning research and topics ranging from the empirical theory of deep learning to AI alignment, where I explore ways to enhance alignment schemes and gain deeper insights into ML systems. My interests extend to Natural Language Processing (NLP), Generative AI,  and Reinforcement learning. 
+I will be posting each of my projects here as I complete them and also write about non-research stuff.
+Thanks for stopping by!  
+
+
 
 ## Education
 
 <h4>Education</h4>
 
-<h7><b><u> ![](images/uol.png){width="14%"}University of London (UoL)</b></u></h7><br>Bachelor of Science in Computer Science \| 2021 - 2025 <br> Specialization: Machine Learning and Artificial Intelligence
+<h7><b><u> ![](images/uol.png){width="14%"}[University of London (UoL)](https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science)</b></u></h7><br>Bachelor of Science in Computer Science \| 2021 - 2025 <br> Specialization: Machine Learning and Artificial Intelligence
 
 ## Highlighted Projects
 
 <h4>Highlighted Projects</h4>
 
-<h10><b><u>Cohere For AI: AYA Project </b></u></h10><br> Title: [AYA: An Open Sciene Initiative to Accelerate Multilingual Progress](https://txt.cohere.com/aya-multilingual/?_gl=1*1nj4tjg*_ga*MTEyODg0MDA3Mi4xNjk5ODIyMTk3*_ga_CRGS116RZS*MTY5OTg2NjAwNi4yLjEuMTY5OTg2NjAzOS4yNy4wLjA.)<br> Role: Aya Language Ambassador <br> Project: [Analysis](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/analytics), [Dashboard](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/) ![](images/Aya_co){width="700"}
+<h10><b><u>Cohere For AI: AYA Project </b></u></h10><br> Title: [AYA: An Open Sciene Initiative to Accelerate Multilingual Progress](https://txt.cohere.com/aya-multilingual/?_gl=1*1nj4tjg*_ga*MTEyODg0MDA3Mi4xNjk5ODIyMTk3*_ga_CRGS116RZS*MTY5OTg2NjAwNi4yLjEuMTY5OTg2NjAzOS4yNy4wLjA.)<br> Role: Independent Researcher (Aya Language Ambassador) <br> Project: [Analysis](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/analytics), [Dashboard](https://instruct-multilingual-frontend-dtjnk4f6ra-ue.a.run.app/) ![](images/Ayac){width="700"}
+[Verify Credential](https://credsverse.com/credentials/932e7f99-38cd-43a8-894c-19a8ccceec68?preview=1)
 
-<U>Description</U>:Section in progress...Content Coming soon!
+<U>Description</U>:The Aya Project, led by Cohere For AI is an open science intiative to support multilingual AI progress. We are creating a multilingual dataset that will be used to train multilingual language models via instruction tuning. The dataset and models will be fully open sourced and released on the 13th of February 2024.
 
-
-## Portfolio
-
-<h4>Portfolio</h4>
-
-<h7><b><u>Content coming soon!</b></u></h7>
 
 
 :::
