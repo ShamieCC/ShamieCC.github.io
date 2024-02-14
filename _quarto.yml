@@ -16,8 +16,7 @@ website:
         href: about.qmd
 
     right:
-      - text: My Portifolio
-        href: posts.qmd
+      - href: posts.qmd
       - text: "Let's Get in Touch!"
         menu:
           - icon: linkedin

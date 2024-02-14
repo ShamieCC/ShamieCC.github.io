@@ -1,14 +1,10 @@
 ---
-title: "Portfolio (Coming Soon end of February)"
+title: "Portfolio"
 listing: 
-  type: grid
   contents: posts
+  type: grid
   sort: "date desc"
-  categories: true
+  categories: true 
 ---
 
-Thank you for visiting my portfolio section. Currently, it's in the works, and I'm excited to showcase my projects and achievements by the end February. As I approach the conclusion of my projects, I'll be adding a collection of my latest work, research, and other noteworthy endeavors.
-
-Feel free to check back for updates then. Your interest is much appreciated, and I look forward to sharing my accomplishments with you.
-
-In the meantime, if you have any inquiries or would like to connect, please don't hesitate to reach out. Stay tuned for exciting updates end of February!
+Thank you for stopping by. I will add content by the end of February. I am almost done with most of my projects.
