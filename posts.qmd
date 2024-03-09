@@ -7,4 +7,4 @@ listing:
   categories: true 
 ---
 
-Thank you for stopping by. I will add content by the end of February. I am almost done with most of my projects.
+Thank you for stopping by. I will add content soon. I am almost done with most of my projects.
