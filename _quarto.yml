@@ -3,7 +3,12 @@ project:
   output-dir: docs
 
 website:
+  open-graph: true
+  site-url: https://shamiecc.github.io/ 
   favicon: images/world_icon.png
+  google-analytics: 
+    tracking-id: "G-3YCVJ3TKDX" #"UA-242992767-1"
+    anonymize-ip: true
   title: ""
   sidebar: true
   search: false
@@ -17,6 +22,7 @@ website:
 
     right:
       - href: posts.qmd
+      - href: resources.qmd
       - text: "Let's Get in Touch!"
         menu:
           - icon: linkedin
@@ -30,21 +36,20 @@ website:
             href: mailto:chitongo.shamiso@gmail.com
 
   page-footer:
-    background: "#4E7895"
+    background: light
     left: "© 2024 Caroline Shamiso Chitongo"
-    right:
-      - icon: github
-        href: https://github.com/ShamieCC
-      - icon: linkedin
-        href: https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/ShamieCC){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+      #- icon: github
+      # href: https://github.com/ShamieCC
+      #- icon: linkedin
+      #  href: https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/
 
 format:
   html:
     theme:
       - mystyles.scss
     page-layout: full
-    mainfont: Avenir
-    backgroundcolor: "#FAFAF9"
+    mainfont: Nunito
     css: styles.css
     toc: true
     editor: visual

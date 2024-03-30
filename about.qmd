@@ -3,15 +3,13 @@ title: "About Caroline Shamiso"
 ---
 
 ::: panel-tabset
-## Full Bio
-
-<h4>Biography</h4>
+## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} Full Proffessional Bio
 
 Section in progress...Content Coming soon!
 
-## Hobbies
+## 
 
-<h4>My Hobbies!</h4>
+## {{< fa hiking title="A person with a backpack and trekking pole" >}} My hobbies
 
 Section in progress...photos & data coming soon!
 

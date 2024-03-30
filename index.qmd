@@ -39,7 +39,7 @@ Activities: Student Blogger [Highlighted Blog](https://www.london.ac.uk/news-eve
 
 <h4>Highlighted Projects</h4>
 
-<b>Title:</b> [AYA: An Open Sciene Initiative to Accelerate Multilingual Progress](https://cohere.com/research/aya)<br> <b><u>Role: Independent Researcher (Aya Language Ambassador)</u></b> <br>As one of the quality champions of the AYA dataset, I lead the way in ensuring the textual data contributed to Aya was of high quality including being free of grammatical errors, safe and
+<b>Title:</b> [AYA: An Open Science Initiative to Accelerate Multilingual Progress](https://cohere.com/research/aya)<br> <b><u>Role: Independent Researcher (Aya Language Ambassador)</u></b> <br>As one of the quality champions of the AYA dataset, I lead the way in ensuring the textual data contributed to Aya was of high quality including being free of grammatical errors, safe and
 factually correct, and robust completions to support model training. As a language Ambassador, I helped spread the word about Aya, recruit new contributors, support those contributors to understand
 the goals of Aya data collection efforts, and celebrate progress.
 

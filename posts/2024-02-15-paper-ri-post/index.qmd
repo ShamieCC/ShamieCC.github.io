@@ -1,0 +1,35 @@
+---
+title: "How to Read and Implement Research Papers."
+description:
+  In this blog I share the steps that I have been taking to read and implement research papers effectively. I hope you wil find them helpful too.
+author:
+  - name: Caroline Shamiso Chitongo
+    url: https://shamiecc.github.io/
+    orcid: 0009-0008-4001-2360
+    affiliation: BSc Computer Science(ML/AI) @ The University of London
+    affiliation-url: https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science
+date: 02-14-2024
+date-modified: last-modified
+bibliography: references.bib
+categories: [Research Paper Implementation, Blogs] # self-defined categories
+citation: 
+  url: https://shamiecc.github.io/posts/2024-02-15-paper-ri-post/
+image: rsech.jpg
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Pick a paper.
+Implementing a paper can take a lot of time and can often be frustrating, so as you are starting out, choose a paper that has existing implementation so that you can cross reference your work. Another reason to do this is, details are often missing from a paper, they are forgotten, or it is assumed you know, or they are somewhere in the code, or you would have to look at reference papers to see the details.
+
+## I. What happens when we can't find the details?...
+
+At times you would have to reach out to the authors to see if they are available over twitter or email, to help answer some questions.
+
+Identify paper idea, how the authors implement and test it. 
+The most effective way to read a paper is to read in passes, that is read it multiple times with increasing levels of detail. it is not advised to read from top to bottom line by line. With subsequent readings, you will be able to fill in more of the details as you go. So the first pass you can read the abstract, look at the diagrams which usually detail the architecture of the model,  and  then the results. In later passes you can read more of the introduction, architecture details, experimenent details and other information in the paper to deepen your understanding.
+
+## II. What's the difference between a website and a blog?
+
+Checklist questions to make sure you understand
+What is the idea in a sentence or two.
+What is the motivation as framed by the authors? What is the problem that they are solving?

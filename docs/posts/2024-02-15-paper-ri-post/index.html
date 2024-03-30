@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Caroline Shamiso Chitongo">
+<meta name="dcterms.date" content="2024-02-14">
+<meta name="description" content="In this blog I share the steps that I have been taking to read and implement research papers effectively. I hope you wil find them helpful too.">
 
-<title>Caroline Shamiso Chitongo</title>
+<title>How to Read and Implement Research Papers.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,20 +26,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/world_icon.png" rel="icon" type="image/png">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../images/world_icon.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -51,23 +55,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3YCVJ3TKDX"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-3YCVJ3TKDX', { 'anonymize_ip': true});
-</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Caroline Shamiso Chitongo">
-<meta property="og:description" content="ML/AI | Alignment and Safety">
-<meta property="og:image" content="https://shamiecc.github.io/images/aigov.png">
-<meta property="og:image:height" content="236">
-<meta property="og:image:width" content="894">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="How to Read and Implement Research Papers.">
+<meta property="og:description" content="In this blog I share the steps that I have been taking to read and implement research papers effectively. I hope you wil find them helpful too.">
+<meta property="og:image" content="https://shamiecc.github.io/posts/2024-02-15-paper-ri-post/rsech.jpg">
 </head>
 
 <body class="nav-fixed">
@@ -77,8 +70,8 @@ gtag('config', 'G-3YCVJ3TKDX', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo_nav.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logo_nav.png" alt="" class="navbar-logo">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -87,21 +80,21 @@ gtag('config', 'G-3YCVJ3TKDX', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home Page</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About Caroline Shamiso</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
+    <a class="nav-link" href="../../resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -134,64 +127,101 @@ gtag('config', 'G-3YCVJ3TKDX', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">How to Read and Implement Research Papers.</h1>
+                  <div>
+        <div class="description">
+          In this blog I share the steps that I have been taking to read and implement research papers effectively. I hope you wil find them helpful too.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Research Paper Implementation</div>
+                <div class="quarto-category">Blogs</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://shamiecc.github.io/">Caroline Shamiso Chitongo</a> <a href="https://orcid.org/0009-0008-4001-2360" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science">
+              BSc Computer Science(ML/AI) @ The University of London
+              </a>
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 14, 2024</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">March 30, 2024</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#i.-what-happens-when-we-cant-find-the-details" id="toc-i.-what-happens-when-we-cant-find-the-details" class="nav-link active" data-scroll-target="#i.-what-happens-when-we-cant-find-the-details">I. What happens when we can’t find the details?…</a></li>
+  <li><a href="#ii.-whats-the-difference-between-a-website-and-a-blog" id="toc-ii.-whats-the-difference-between-a-website-and-a-blog" class="nav-link" data-scroll-target="#ii.-whats-the-difference-between-a-website-and-a-blog">II. What’s the difference between a website and a blog?</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/20220915_175144.jpg" class="about-image
-  rounded " style="width: 10cm;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Caroline Shamiso Chitongo</h1>
-<p class="subtitle lead">ML/AI | Alignment and Safety</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/caroline-shamiso-chitongo-7724381a8/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/ShamieCC" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p><img src="images/aigov.png" class="img-fluid"></p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Welcome!</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Education</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Highlighted Projects</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>I am an aspiring AI/ML Engineer pursuing a BSc in Computer Science at the University of London. I am interested in Machine Learning research and topics ranging from the empirical theory of deep learning, AI safety and AI alignment, where I explore ways to enhance alignment schemes and gain deeper insights into ML systems. I am also exploring what I can do within the effective altruism community. My interests extend to Natural Language Processing (NLP), Generative AI, and Reinforcement learning. I will be posting each of my projects here as I complete them and also write about non-research stuff. Thanks for stoping by!</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<h4>
-Education
-</h4>
-<p><h7><b><u> <img src="images/uol.png" class="img-fluid" style="width:14.0%"><a href="https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science">University of London (UoL)</a></u></b></h7><br>Bachelor of Science in Computer Science | 2021 - 2025 <br> Specialization: Machine Learning and Artificial Intelligence <br> Activities: Student Blogger <a href="https://www.london.ac.uk/news-events/student-blog/reflecting-experience-university-london-student-voice-group-member">Highlighted Blog</a> <br></p>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<h4>
-Highlighted Projects
-</h4>
-<p><b>Title:</b> <a href="https://cohere.com/research/aya">AYA: An Open Science Initiative to Accelerate Multilingual Progress</a><br> <b><u>Role: Independent Researcher (Aya Language Ambassador)</u></b> <br>As one of the quality champions of the AYA dataset, I lead the way in ensuring the textual data contributed to Aya was of high quality including being free of grammatical errors, safe and factually correct, and robust completions to support model training. As a language Ambassador, I helped spread the word about Aya, recruit new contributors, support those contributors to understand the goals of Aya data collection efforts, and celebrate progress.</p>
-<p><b>Project:</b> <a href="https://cohere.com/research/papers/aya-dataset-paper-2024-02-13">Aya Dataset</a> , <a href="https://cohere.com/research/aya/aya-at-a-glance.pdf">Aya Journey and Report</a> <img src="images/Ayac.png" class="img-fluid" width="700"> <a href="https://credsverse.com/credentials/932e7f99-38cd-43a8-894c-19a8ccceec68?preview=1">Verify Credential</a></p>
-<p><u><b>Description:</b></u> The Aya project is the largest participatory research initiative to date, changing how breakthroughs happen. The research involved 3K independent collaborators across 119 countries, making this the largest open science project to date in the field of machine learning. C4AI is open-sourcing this work to unlock AI research on a global scale. Aya will be made available to the research community to further advance this critical effort. The work provides AI researchers with a first-of-its-kind foundation to support multilingual AI research projects.</p>
-</div>
-</div>
-</div>
-<hr>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</main></div>
-</div>
- <!-- /main -->
+
+
+<p>Pick a paper. Implementing a paper can take a lot of time and can often be frustrating, so as you are starting out, choose a paper that has existing implementation so that you can cross reference your work. Another reason to do this is, details are often missing from a paper, they are forgotten, or it is assumed you know, or they are somewhere in the code, or you would have to look at reference papers to see the details.</p>
+<section id="i.-what-happens-when-we-cant-find-the-details" class="level2">
+<h2 class="anchored" data-anchor-id="i.-what-happens-when-we-cant-find-the-details">I. What happens when we can’t find the details?…</h2>
+<p>At times you would have to reach out to the authors to see if they are available over twitter or email, to help answer some questions.</p>
+<p>Identify paper idea, how the authors implement and test it. The most effective way to read a paper is to read in passes, that is read it multiple times with increasing levels of detail. it is not advised to read from top to bottom line by line. With subsequent readings, you will be able to fill in more of the details as you go. So the first pass you can read the abstract, look at the diagrams which usually detail the architecture of the model, and then the results. In later passes you can read more of the introduction, architecture details, experimenent details and other information in the paper to deepen your understanding.</p>
+</section>
+<section id="ii.-whats-the-difference-between-a-website-and-a-blog" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-whats-the-difference-between-a-website-and-a-blog">II. What’s the difference between a website and a blog?</h2>
+<p>Checklist questions to make sure you understand What is the idea in a sentence or two. What is the motivation as framed by the authors? What is the problem that they are solving?</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{shamiso chitongo2024,
+  author = {Shamiso Chitongo, Caroline},
+  title = {How to {Read} and {Implement} {Research} {Papers.}},
+  date = {2024-02-14},
+  url = {https://shamiecc.github.io/posts/2024-02-15-paper-ri-post/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-shamiso chitongo2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Shamiso Chitongo, Caroline. 2024. <span>“How to Read and Implement
+Research Papers.”</span> February 14, 2024. <a href="https://shamiecc.github.io/posts/2024-02-15-paper-ri-post/">https://shamiecc.github.io/posts/2024-02-15-paper-ri-post/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -212,6 +242,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
