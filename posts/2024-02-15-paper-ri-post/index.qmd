@@ -76,6 +76,8 @@ When delving into AI research papers, it becomes evident that they often fall in
 -   [Cohere For AI community](https://sites.google.com/cohere.com/c4ai-community/community-programs?authuser=0) 
 -   Arize AI Paper Readings
 
+-   AI Safety Reading club
+
 **Websites:**
 
 -   Hackernews, Forbes AI, VentureBeat, MIT Tech Review, Wired, AI Business 
