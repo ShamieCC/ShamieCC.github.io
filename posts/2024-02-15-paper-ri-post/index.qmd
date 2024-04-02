@@ -23,17 +23,17 @@ Embarking on the journey of understanding and implementing research papers can f
 
 Once you've completed your initial passes through the paper and feel confident in your understanding, ensure that you've truly grasped the essence of the research. Here's a checklist of questions to help solidify your comprehension:
 
-1.**Core Idea**: Can you summarize the main idea of the paper in just a sentence or two? Clarifying this fundamental concept is crucial for orienting yourself within the broader scope of the research.
+1. **Core Idea**: Can you summarize the main idea of the paper in just a sentence or two? Clarifying this fundamental concept is crucial for orienting yourself within the broader scope of the research.
 
-2.**Motivation and Problem Statement**: What is the underlying motivation that drove the authors to undertake this research? What specific problem are they attempting to address or solve? Understanding the context and rationale behind the study provides essential insight into its significance and relevance.
+2. **Motivation and Problem Statement**: What is the underlying motivation that drove the authors to undertake this research? What specific problem are they attempting to address or solve? Understanding the context and rationale behind the study provides essential insight into its significance and relevance.
 
-3.**Proposed Solution**: How do the authors propose to tackle the problem at hand? Identifying these strategies lays the groundwork for evaluating their effectiveness and potential implications.
+3. **Proposed Solution**: How do the authors propose to tackle the problem at hand? Identifying these strategies lays the groundwork for evaluating their effectiveness and potential implications.
 
-4.**Main Contribution**: What unique insights or advancements does the paper offer to the existing body of knowledge? Whether it introduces a novel approach presents experimental findings, or synthesizes existing research, pinpointing the main contribution highlights the paper's value within its field.
+4. **Main Contribution**: What unique insights or advancements does the paper offer to the existing body of knowledge? Whether it introduces a novel approach presents experimental findings, or synthesizes existing research, pinpointing the main contribution highlights the paper's value within its field.
 
-5.**Success Metrics**: How do the authors define and measure success in their study? Whether it's through quantitative metrics, qualitative evaluations, or comparative analyses, understanding the criteria for assessing success provides context for interpreting the results.
+5. **Success Metrics**: How do the authors define and measure success in their study? Whether it's through quantitative metrics, qualitative evaluations, or comparative analyses, understanding the criteria for assessing success provides context for interpreting the results.
 
-6.**Evaluation of Success**: Were the authors successful in achieving their stated objectives? Evaluate the findings and results presented in the paper against the defined success metrics. Consider any limitations or caveats that may influence the interpretation of their success.
+6. **Evaluation of Success**: Were the authors successful in achieving their stated objectives? Evaluate the findings and results presented in the paper against the defined success metrics. Consider any limitations or caveats that may influence the interpretation of their success.
 
 Finally, maintain a running list of questions and knowledge gaps for yourself as you navigate through the paper.
 
