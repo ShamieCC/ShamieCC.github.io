@@ -1,66 +1,33 @@
 ---
 title: "Resources"
-subtitle: "A collection of other people's writings, tutorials, etc. that I find particularly helpful as I transition to a career in AI Safety."
 title-block-banner: true
-draft: true
 ---
-
-It's finally time for an upgraded notebook! I've been Slacking myself (and subsequently burying) links to resources for far too long, so my favorites will now live here. 
+Welcome to the Resources Page! Here, you'll find my recommendations of selected collections of research papers, expert writings, tutorials, and more, which I find particularly helpful as I transition to a career in AI Safety. I'll continue to update the page as I go, so feel free to check back for new additions.
 
 ## {{< fa book-open title="An open book" >}} learning materials
 
-* Ever feel like you need a pick-me-up while learning stats or a new R tool? Look no further than [Allison Horst's](https://twitter.com/allison_horst) [Data Science Illustrations](https://allisonhorst.com/), featuring the cutest and most educational fuzzy monsters you'll ever see!
+-   Rational Animations is a YouTube channel particularly focused on AI Safety and AI Alignment, that is, making sure present and future AI Systems are aligned with human values and don't cause our extinction. Their video animations are amazing!  [Rational Animations](https://www.youtube.com/@RationalAnimations/community) 
 
-* [Mastering Shiny](https://mastering-shiny.org/index.html), by Hadley Wickham 
+-   [Robert Miles AI Safety ](https://www.youtube.com/@RobertMilesAI),is the best AI Safety Research channel on Youtube. If you are starting out, you will find all the videos helpful.
 
-* [Happy Git and GitHub for the useR](https://happygitwithr.com/), by Jenny Bryan
+-   For a walkthrough of research papers, I strongly recommend [Neel Nanda](https://www.youtube.com/@neelnanda2469)
 
-* [R for Data Science](https://r4ds.had.co.nz/), by Hadley Wickham
+## {{< fa chart-bar title="A bar chart" >}} Communities to join
 
-* [Hitchhiker's Guide to Python](https://docs.python-guide.org/), by Kenneth Reitz & Tanya Schlusser
+-   [Cohere For AI community](https://sites.google.com/cohere.com/c4ai-community/community-programs?authuser=0) is where I co-lead the Begginers in Research Driven Studies program. We have an AI Safety and alignment group where we read and implement research papers, learn different topics and meet to discuss and answer questions. We also invite speakers at the end of every sprint, usually we invite the authors of the paper or the book we were reading, I recommend [joining](https://share.hsforms.com/10OrjljwpQ52ILJA6ftENIwch5vw).
 
-* [Data wrangling essentials: comparisons in JavaScript, Python, SQL, R, and Excel](https://observablehq.com/@observablehq/data-wrangling-translations), by Allison Horst & Paul Buffa
+## {{< fa book-open title="An open book" >}} Blog Posts
 
-* [W3Schools](https://www.w3schools.com/default.asp), particularly for their HTML & CSS tutorials
+[How we could stumble into AI catastrophe](https://www.cold-takes.com/how-we-could-stumble-into-ai-catastrophe/), by Holden Karnofsky
 
-## {{< fa chart-bar title="A bar chart" >}} data viz
+## {{< fa book-open title="An open book" >}} Research Papers
+[Open Problems and Fundamental Limitations of
+Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2307.15217.pdf), by Stephen Casper and Xander Davies
 
-* [from Data to Viz](https://www.data-to-viz.com/), a choose-your-adventure-type experience for creating your best data visualizations
+## {{< fa book-open title="An open book" >}} Books
+[The Precipice](https://theprecipice.com/), by Toby Ord. 
 
-* [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/), by Claus O. Wilke
+[The Alignment Problem](https://brianchristian.org/the-alignment-problem/), by Brian Christian.
 
-* [The Sessions College Color Calculator](https://www.sessions.edu/color-calculator/), for creating color palettes
+[Doing Good Better](https://www.effectivealtruism.org/), by William Macaskill.
 
-* [Beautifully Annotated: Enhancing your ggplots with Text](https://www.cararthompson.com/talks/rl-cambridge-beautifully-annotated/), by [Cara Thompson](https://www.cararthompson.com/about.html), a seriously wonderful talk on using annotations in your ggplots
-
-## {{< fa tools title="A wrench and a screw driver" >}} r tools
-
-* [free icons from fontawesome](https://fontawesome.com/v5/search?m=free) + the [`{fontawesome}`](https://github.com/rstudio/fontawesome) R package for infusing your slides, website, RMarkdowns/Quarto Markdowns, and more with an extra splash of fun
-
-## {{< fa desktop title="A desktop computer screen" >}} reporting & presentations
-
-* Quarto is all the rage these days (and by these days, I mean post-March 2022). Download and find some great tutorials [here](https://quarto.org/) to get started
-
-* [Meet xaringan: Making slides in R Markdown](https://arm.rbind.io/slides/xaringan.html#1), by Allison Hill
-
-* [Sharing Your `xaringan` Slides](https://www.garrickadenbuie.com/blog/sharing-xaringan-slides/), by Garrick Aden-Buie
-
-## {{< fa users title="Three people" >}} data science communities
-
-*While these groups are primarily based in SoCal/Santa Barbara, there are tons of awesome groups like these all over the world. Google around to see what's near you!*
-
-* [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/) and [R-Ladies Global](https://rladies.org/), which work to promote gender diversity in the R community  
-
-* [EcoDataScience](https://eco-data-science.github.io/), an environmental data science study group at UCSB  
-* [Southern California R Users](https://socalr.org/), an alliance of R user groups in Southern California  
-* [Santa Barbara Women in STEM](https://www.sbwomeninstem.org/), while not specifically data science-focused, this group holds some really great career and networking events, panels, flash talks, and more
-
-## {{< fa universal-access title="The Web Accessibility symbol, which is a person with outstretched arms inside a circle" >}} web accessibility
-
-* [The A11Y Project](https://www.a11yproject.com/) is a community-driven effort to make digital content more accessible. I still have a long way to go in making my own website [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) compliant -- the A11Y Project not only has a ton of great blog posts, but also WCAG compliance checklist that I will definitely be returning to over and over again.  
-
-* [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/), a color blindness simulator -- just upload a file and view your color palettes as they would appear under different types of color deficiencies
-
-## {{< fa smile title="A smiling face" >}} misc.
-
-* Discover new music to jam out to while you hack at [Every Noise at Once](https://everynoise.com/engenremap.html) (HT: Jeanette Clark)
