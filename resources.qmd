@@ -8,13 +8,13 @@ Welcome to the Resources Page! Here, you'll find my recommendations of selected 
 
 -   Rational Animations is a YouTube channel particularly focused on AI Safety and AI Alignment, that is, making sure present and future AI Systems are aligned with human values and don't cause our extinction. Their video animations are amazing!  [Rational Animations](https://www.youtube.com/@RationalAnimations/community) 
 
--   [Robert Miles AI Safety ](https://www.youtube.com/@RobertMilesAI),is the best AI Safety Research channel on Youtube. If you are starting out, you will find all the videos helpful.
+-   [Robert Miles AI Safety ](https://www.youtube.com/@RobertMilesAI), is the best AI Safety Research channel on Youtube. If you are starting out, you will find all the videos helpful.
 
 -   For a walkthrough of research papers, I strongly recommend [Neel Nanda](https://www.youtube.com/@neelnanda2469)
 
 ## {{< fa chart-bar title="A bar chart" >}} Communities to join
 
--   [Cohere For AI community](https://sites.google.com/cohere.com/c4ai-community/community-programs?authuser=0) is where I co-lead the Begginers in Research Driven Studies program. We have an AI Safety and alignment group where we read and implement research papers, learn different topics and meet to discuss and answer questions. We also invite speakers at the end of every sprint, usually we invite the authors of the paper or the book we were reading, I recommend [joining](https://share.hsforms.com/10OrjljwpQ52ILJA6ftENIwch5vw).
+-   [Cohere For AI community](https://sites.google.com/cohere.com/c4ai-community/community-programs?authuser=0) is where I co-lead the Beginners in Research Driven Studies program. We have an AI Safety and alignment group where we read and implement research papers, learn different topics, and meet to discuss and answer questions. We also invite speakers at the end of every sprint, usually, we invite the authors of the paper or the book we were reading, I recommend [joining](https://share.hsforms.com/10OrjljwpQ52ILJA6ftENIwch5vw).
 
 ## {{< fa book-open title="An open book" >}} Blog Posts
 
