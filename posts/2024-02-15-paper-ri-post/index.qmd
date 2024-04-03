@@ -1,7 +1,7 @@
 ---
 title: "How to Read and Implement Research Papers."
 description:
-  In this blog I share the steps that I have been taking to read and implement research papers effectively. I hope you will find them helpful too.
+  In this blog, I share the steps that I have been taking to read and implement research papers effectively. I hope you will find them helpful too.
 author:
   - name: Caroline Shamiso Chitongo
     url: https://shamiecc.github.io/
@@ -13,13 +13,13 @@ date-modified: last-modified
 bibliography: references.bib
 categories: [Research Paper Implementation, Blogs] # self-defined categories
 image: rsech.jpg
-draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft: false # Setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 ## How to Read and Implement Research Papers
 Embarking on the journey of understanding and implementing research papers can feel like navigating uncharted waters – daunting, yet full of promise. Through a compilation of insights from mentors and personal experiences, I've uncovered effective strategies. I'm eager to share these insights with you, offering a roadmap to bridge the gap between theory and practice.
 
 ## Reading the Paper
- Start by selecting a paper that aligns with your interests and has an existing implementation available. This is because details are often missing from a paper, are forgotten, or it is assumed you know, or they are somewhere in the code, or you would have to look at reference papers to see the details. At times, you may need to reach out to the authors for clarification. Choosing a paper with an existing implementation allows you to cross-reference work. As you read, focus on identifying the paper's core idea, how the authors implement and test it, and critical questions to ensure comprehension. The most effective way to read a paper is to read in passes, that is, read it multiple times with increasing levels of detail. It is not advised to read from top to bottom line by line.. With subsequent readings, you will be able to fill in more details. So on the first pass you can read the abstract, look at the diagrams which usually detail the architecture of the model, and then the results. In later passes, delve into the introduction, architecture details, experimental details, and other information in the paper to deepen your understanding.
+ Start by selecting a paper that aligns with your interests and has an existing implementation available. This is because details are often missing from a paper, are forgotten, or it is assumed you know, or they are somewhere in the code, or you would have to look at reference papers to see the details. At times, you may need to reach out to the authors for clarification. Choosing a paper with an existing implementation allows you to cross-reference work. As you read, focus on identifying the paper's core idea, how the authors implement and test it, and critical questions to ensure comprehension. The most effective way to read a paper is to read in passes, that is, read it multiple times with increasing levels of detail. It is not advised to read from top to bottom line by line.. With subsequent readings, you will be able to fill in more details. So on the first pass, you can read the abstract, look at the diagrams which usually detail the architecture of the model, and then the results. In later passes, delve into the introduction, architecture details, experimental details, and other information in the paper to deepen your understanding.
 
 Once you've completed your initial passes through the paper and feel confident in your understanding, ensure that you've truly grasped the essence of the research. Here's a checklist of questions to help solidify your comprehension:
 
@@ -49,9 +49,9 @@ Now that you've internalized the paper's core concepts, it's time to turn theory
 
 4. **Assemble the Model**: Once you've developed the individual components, assemble them into a cohesive model. Pay attention to the interdependencies between components and ensure seamless integration to avoid bottlenecks or inconsistencies.
 
-5. **Start Simple, Then Iterate**: Begin with the simplest implementation possible, prioritizing functionality over optimization. Focus on getting the basic functionality up and running before delving into more complex features. Iteratively add layers of complexity as needed, keeping an eye on the overarching objectives of the model. Establish a robust testing and benchmarking framework to measure the performance and efficacy of your implementation.
+5. **Start Simple, Then Iterate**: Begin with the simplest implementation possible, prioritizing functionality over-optimization. Focus on getting the basic functionality up and running before delving into more complex features. Iteratively add layers of complexity as needed, keeping an eye on the overarching objectives of the model. Establish a robust testing and benchmarking framework to measure the performance and efficacy of your implementation.
 
-By following this systematic approach, you can methodically implement the paper and gain invaluable insights into its real-world applications. Since you have chosen a paper with existing implementation, you can always cross reference your work.
+By following this systematic approach, you can methodically implement the paper and gain invaluable insights into its real-world applications. Since you have chosen a paper with an existing implementation, you can always cross-reference your work.
 
 ## Types of AI Research Papers:
 
@@ -69,14 +69,14 @@ When delving into AI research papers, it becomes evident that they often fall in
 
 -   X, YouTube, LinkedIn.
 
--   Follow Newsletters, AI Top Voices, top AI research company’s like OpenAI and YouTuber’s like Yannic Kilcher
+-   Follow Newsletters, AI Top Voices, top AI research companies like OpenAI, and YouTubers like Yannic Kilcher
 
 **Attending community reading events:** 
 
 -   [Cohere For AI community](https://sites.google.com/cohere.com/c4ai-community/community-programs?authuser=0) 
 -   Arize AI Paper Readings
 
--   AI Safety Reading club
+-   AI Safety Reading Club
 
 **Websites:**
 
