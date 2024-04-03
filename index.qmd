@@ -1,6 +1,6 @@
 ---
 title: "Caroline Shamiso Chitongo"
-subtitle: "ML/AI | Alignment and Safety"
+subtitle: "AI/ML | Technical Safety"
 about: 
    id: hero-heading
    template: trestles
