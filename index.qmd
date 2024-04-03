@@ -22,9 +22,9 @@ about:
 ## Welcome!
 
 
-I am an aspiring AI/ML Engineer pursuing a BSc in Computer Science at the University of London. I am interested in Machine Learning research and topics ranging from the empirical theory of deep learning, AI safety and AI alignment, where I explore ways to enhance alignment schemes and gain deeper insights into ML systems. I am also exploring what I can do within the effective altruism community. My interests extend to Natural Language Processing (NLP), Generative AI,  and Reinforcement learning. 
+I am an aspiring AI/ML Researcher pursuing a BSc in Computer Science at the University of London. I am interested in Machine Learning research and topics ranging from the empirical theory of deep learning, AI safety, and AI alignment where I explore ways to enhance alignment schemes and gain deeper insights into ML systems. I am also exploring what I can do within the effective altruism community. My interests extend to Natural Language Processing (NLP), Generative AI,  and Reinforcement learning. 
 I will be posting each of my projects here as I complete them and also write about non-research stuff.
-Thanks for stoping by!  
+Thanks for stopping by!  
 
 ## Education
 
