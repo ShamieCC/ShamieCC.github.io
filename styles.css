@@ -1,0 +1,183 @@
+/* ==========================================================================
+   Design foundation
+   Change the font here in one place. Everything else references --font-body.
+   ========================================================================== */
+
+:root {
+  --font-body: "EB Garamond", Georgia, serif;
+
+  --color-bg: #faf6ef;
+  --color-text: #201e1b;
+  --color-text-muted: #55524c;
+  --color-accent: #2c4a34;
+  --color-accent-hover: #1e3524;
+  --color-border: #e3dccb;
+  --color-avatar-bg: #cbd8c4;
+
+  --content-width: 700px;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==========================================================================
+   Base typography
+   ========================================================================== */
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 0.75em;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+p {
+  margin: 0 0 1.25em;
+}
+
+/* Links get the deep green accent everywhere except the nav, which is
+   styled separately below. */
+a {
+  color: var(--color-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-accent-hover);
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+main {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--color-accent);
+}
+
+/* ==========================================================================
+   Intro section (homepage)
+   ========================================================================== */
+
+.intro {
+  text-align: center;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: var(--color-avatar-bg);
+  margin: 0 auto 1.75rem;
+}
+
+.intro-text {
+  color: var(--color-text-muted);
+  max-width: 46ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========================================================================
+   Social links row
+   ========================================================================== */
+
+.social-links {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Page stubs
+   ========================================================================== */
+
+.coming-soon {
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  nav ul {
+    gap: 0.5rem 1rem;
+    padding: 1rem;
+  }
+
+  main {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .avatar {
+    width: 110px;
+    height: 110px;
+  }
+}
