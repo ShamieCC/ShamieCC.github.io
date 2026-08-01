@@ -164,8 +164,60 @@ nav a:focus {
 }
 
 /* ==========================================================================
+   Page intro line
+   ========================================================================== */
+
+.page-intro {
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   Life page grid
+   Calm grid spacing only, no boxes, borders, or cards. Cells keep extra
+   room below the description so an optional image can go there later.
+   ========================================================================== */
+
+.life-list {
+  list-style: none;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2rem;
+}
+
+.life-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 220px;
+}
+
+.life-list a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.life-list a:hover,
+.life-list a:focus {
+  color: var(--color-accent-hover);
+}
+
+.life-list p {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
+
+@media (max-width: 640px) {
+  .life-list {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 480px) {
   nav ul {
