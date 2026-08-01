@@ -6,10 +6,10 @@
 :root {
   --font-body: "EB Garamond", Georgia, serif;
 
-  --color-bg: #faf6ef;
+  --color-bg: #eae1d0;
   --color-text: #201e1b;
   --color-text-muted: #55524c;
-  --color-accent: #2c4a34;
+  --color-accent: #2f5233;
   --color-accent-hover: #1e3524;
   --color-border: #e3dccb;
   --color-avatar-bg: #cbd8c4;
@@ -108,6 +108,7 @@ nav a {
   color: var(--color-text);
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 600;
   letter-spacing: 0.01em;
 }
 
